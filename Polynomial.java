@@ -49,7 +49,7 @@ public class Polynomial {
     	
     	double answer=evaluate(x);
     	
-    	return (answer<=0.0001);
+    	return (answer==0.0);
         
     }
 
