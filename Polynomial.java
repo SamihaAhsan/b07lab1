@@ -41,16 +41,16 @@ public class Polynomial {
     			coefs.add(num);}
     			else {
     				exps.add(1);
-        			coefs.add(1);
+        			coefs.add(1.0);
     			}
     		
     		}
     		else if(word_parts[0].equals("") || word_parts[0].equals("-")|| word_parts[0].equals("+") ) {
     			if (word_parts[0].equals("") ||word_parts[0].equals("+")) {
-    				coefs.add(1);	
+    				coefs.add(1.0);	
     			}
     			else {
-    				coefs.add(-1);
+    				coefs.add(-1.0);
     				
     			}
 
